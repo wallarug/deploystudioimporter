@@ -15,7 +15,6 @@ The script works by reading in a csv file which contains user information and ma
 A template CSV file is provided in the samples/ folder.
 
 ```
-#!bash
 CSV Format:
 Serial Number, Name, Short Name, Password 
 
