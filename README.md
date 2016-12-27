@@ -4,6 +4,8 @@ This script allows administrators to import a large volume of users automaticall
 
 This repo contains custom scripts to work with DeployStudio for Mac.
 
+**IMPORTANT:**  Always remember to backup your DeployStudio repository/files before running this script.  Just in case ;).
+
 
 # How it works #
 
@@ -28,6 +30,12 @@ Serial Number, Name, Short Name, Password
 **Password** the default password for this user when the device is given to them.
 
 
+# How to use #
+
+1. Clone repository
+2. Create csv file with users and serial numbers
+3. Run script
+
 
 # Running the script #
 
@@ -35,7 +43,6 @@ You can run the script from any directory, provided you give it the correct Depl
 
 ## Example Usage ##
 ```
-#!bash
 
 $ python deploystudio_users.py -r /Users/Shared/repository -f ~/Desktop/usernames.csv -H y
 
@@ -44,8 +51,9 @@ $ python deploystudio_users.py -r /Users/Shared/repository -f ~/Desktop/username
 ## Further Usage ##
 
 ```
-#!bash
+
 $ python deploystudio_users.py -h
+
 ************************************
 * Laptop Mass User Creation Script *
 *       for DeployStudio           *
