@@ -35,6 +35,7 @@ Serial Number, Name, Short Name, Password
 2. Create csv file with users and serial numbers
 3. Run script
 
+**NOTE:** Restarting the DeployStudio server may be required for the changes to be recognised. 
 
 # Running the script #
 
