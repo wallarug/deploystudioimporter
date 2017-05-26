@@ -147,7 +147,7 @@ def main():
 
                 # report back that a record has been inserted...
                 print "RECORD INSERTED!"
-                row++
+                row += 1
 
         except IOError:
             # triggered because the file does not exist.
